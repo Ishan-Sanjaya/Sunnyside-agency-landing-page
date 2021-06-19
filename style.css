@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
-/* -------------------------------------------------------------------------- */
-/*                     font-family: 'Barlow', sans-serif;                     */
-/* -------------------------------------------------------------------------- */
+
+
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
-/* -------------------------------------------------------------------------- */
-/*                       font-family: 'Fraunces', serif;                      */
-/* -------------------------------------------------------------------------- */
+
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -14,18 +12,14 @@
   color: hsl(228, 45%, 44%);
 }
 :root {
-  /* -------------------------------------------------------------------------- */
-  /*                                   primary                                  */
-  /* -------------------------------------------------------------------------- */
+  
   --Soft-red: hsl(7, 99%, 70%);
   --Yellow: hsl(51, 100%, 49%);
   --Dark-desaturated-cyan: hsl(167, 40%, 24%); /*(graphic design text)*/
   --Dark-blue: hsl(198, 62%, 26%); /*(photography text)*/
   --Dark-moderate-cyan: hsl(168, 34%, 41%); /*(footer)*/
   --nav-bar-color: #3ebfff;
-  /* -------------------------------------------------------------------------- */
-  /*                                   Neutral                                  */
-  /* -------------------------------------------------------------------------- */
+  
   --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
   --Very-dark-grayish-blue: hsl(213, 9%, 39%);
   --Dark-grayish-blue: hsl(232, 10%, 55%);
@@ -153,9 +147,9 @@ a {
 a:hover {
   text-decoration: underline #fed501 8px;
 }
-/* -------------------------------------------------------------------------- */
-/*                                   second                                   */
-/* -------------------------------------------------------------------------- */
+
+
+
 #second-div {
   width: 1440px;
   height: 600px;
@@ -192,9 +186,9 @@ a:hover {
 #second-div a:hover {
   text-decoration: underline #fd7462 8px;
 }
-/* -------------------------------------------------------------------------- */
-/*                                    third                                   */
-/* -------------------------------------------------------------------------- */
+
+
+
 #third-div {
   width: 1440px;
   height: 600px;
@@ -324,6 +318,7 @@ a:hover {
 #footer{
   width: 1440px;
   margin: auto;
+  padding-bottom: 10px;
   background-color: #90D4C5;
 }
 #for-logo{
@@ -364,4 +359,11 @@ font-family: 'Barlow', sans-serif;
 }
 #facebook svg a:hover{
   color: white !important;;
+}
+.attribution a{
+font-size: 13px;
+color:var(--Dark-moderate-cyan);
+}
+.attribution a:hover{
+  text-decoration: underline;
 }
